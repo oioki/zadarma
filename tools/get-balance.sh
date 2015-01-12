@@ -21,3 +21,5 @@ if [ $? = 0 ]; then
 else
   echo "Unauthorized"
 fi
+
+rm $HEADERS $COOKIES
